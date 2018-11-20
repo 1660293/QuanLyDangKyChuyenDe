@@ -18,24 +18,9 @@ namespace QLCD.Views.TrangChu
             InitializeComponent();
             MenuChung menuChung = new MenuChung(this);
             menuChung.Dock = DockStyle.Fill;
-            MenuGiaoVu menuGiaoVu = new MenuGiaoVu();
+            MenuGiaoVu menuGiaoVu = new MenuGiaoVu(this);
             menuGiaoVu.Dock = DockStyle.Fill;
             spcChucNang.Panel1.Controls.Add(menuChung);
-            spcChucNang.Panel2.Controls.Add(menuGiaoVu);
-
-            
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-            
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
+            spcChucNang.Panel2.Controls.Add(menuGiaoVu);        }
     }
 }

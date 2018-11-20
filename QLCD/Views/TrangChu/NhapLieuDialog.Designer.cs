@@ -1,13 +1,13 @@
-﻿namespace QLCD.Views.TrangChu.Control
+﻿namespace QLCD.Views.TrangChu
 {
-    partial class ThongTinDangKyChuyenDe
+    partial class NhapLieuDialog
     {
-        /// <summary> 
+        /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
+        /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,29 +20,40 @@
             base.Dispose(disposing);
         }
 
-        #region Component Designer generated code
+        #region Windows Form Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
+        /// <summary>
+        /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
+            this.pnlDialog = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // ThongTinDangKyChuyenDe
+            // pnlDialog
             // 
-            this.AllowDrop = true;
+            this.pnlDialog.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDialog.Location = new System.Drawing.Point(0, 0);
+            this.pnlDialog.Name = "pnlDialog";
+            this.pnlDialog.Size = new System.Drawing.Size(284, 261);
+            this.pnlDialog.TabIndex = 0;
+
+            // 
+            // NhapLieuDialog
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Name = "ThongTinDangKyChuyenDe";
-            this.Size = new System.Drawing.Size(686, 386);
-            this.Load += new System.EventHandler(this.ThongTinDangKyChuyenDe_Load);
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.pnlDialog);
+            this.Name = "NhapLieuDialog";
+            this.Text = "a";
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel pnlDialog;
     }
 }

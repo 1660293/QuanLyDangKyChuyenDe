@@ -15,6 +15,7 @@ namespace QLCD.Views.TrangChu.Control
         public ThongTinDangKyChuyenDe()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
         }
 
         private void ThongTinDangKyChuyenDe_Load(object sender, EventArgs e)

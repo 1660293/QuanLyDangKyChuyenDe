@@ -70,6 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CausesValidation = false;
             this.Controls.Add(this.btnCapNhatMonHoc);
             this.Controls.Add(this.btnXemDSMonHoc);
             this.Controls.Add(this.btnXemTTChuyenDe);

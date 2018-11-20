@@ -1,6 +1,6 @@
 ﻿namespace QLCD.Views.TrangChu.Control
 {
-    partial class ThongTinDangKyChuyenDe
+    partial class EditChuyenDe
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,19 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // ThongTinDangKyChuyenDe
-            // 
-            this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Name = "ThongTinDangKyChuyenDe";
-            this.Size = new System.Drawing.Size(686, 386);
-            this.Load += new System.EventHandler(this.ThongTinDangKyChuyenDe_Load);
-            this.ResumeLayout(false);
-
         }
 
         #endregion

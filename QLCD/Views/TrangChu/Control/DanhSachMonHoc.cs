@@ -15,6 +15,7 @@ namespace QLCD.Views.TrangChu.Control
         public DanhSachMonHoc()
         {
             InitializeComponent();
+            this.Dock = DockStyle.Fill;
         }
 
         private void cbVoHieuHoa_CheckedChanged(object sender, EventArgs e)
@@ -39,6 +40,11 @@ namespace QLCD.Views.TrangChu.Control
             {
                 cbVoHieuHoa.Enabled = false;
             }
+        }
+
+        private void btnSearchMonHoc_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("jdashfkjlasdhfjkl");
         }
     }
 }

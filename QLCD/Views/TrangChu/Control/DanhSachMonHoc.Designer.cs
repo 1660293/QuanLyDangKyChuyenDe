@@ -32,15 +32,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtTenMH = new System.Windows.Forms.TextBox();
             this.pnlNhapDSMH = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.cbVoHieuHoa = new System.Windows.Forms.CheckBox();
-            this.cbChuaVoHieuHoa = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnSearchMonHoc = new System.Windows.Forms.Button();
             this.btnResetSeachMH = new System.Windows.Forms.Button();
+            this.btnSearchMonHoc = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbChuaVoHieuHoa = new System.Windows.Forms.CheckBox();
+            this.cbVoHieuHoa = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pnlNhapDSMH.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -59,7 +59,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 13);
+            this.label2.Location = new System.Drawing.Point(63, 13);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 1;
@@ -68,17 +68,16 @@
             // txtTenMH
             // 
             this.txtTenMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtTenMH.Location = new System.Drawing.Point(144, 10);
+            this.txtTenMH.Location = new System.Drawing.Point(142, 10);
             this.txtTenMH.Name = "txtTenMH";
             this.txtTenMH.Size = new System.Drawing.Size(124, 20);
             this.txtTenMH.TabIndex = 2;
             // 
             // pnlNhapDSMH
             // 
-            this.pnlNhapDSMH.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlNhapDSMH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pnlNhapDSMH.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlNhapDSMH.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnlNhapDSMH.Controls.Add(this.btnResetSeachMH);
             this.pnlNhapDSMH.Controls.Add(this.btnSearchMonHoc);
             this.pnlNhapDSMH.Controls.Add(this.textBox2);
@@ -94,56 +93,24 @@
             this.pnlNhapDSMH.Size = new System.Drawing.Size(720, 113);
             this.pnlNhapDSMH.TabIndex = 3;
             // 
-            // label3
+            // btnResetSeachMH
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(65, 43);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Mã môn học:";
+            this.btnResetSeachMH.Location = new System.Drawing.Point(400, 87);
+            this.btnResetSeachMH.Name = "btnResetSeachMH";
+            this.btnResetSeachMH.Size = new System.Drawing.Size(91, 23);
+            this.btnResetSeachMH.TabIndex = 10;
+            this.btnResetSeachMH.Text = "Hủy Điều Kiện";
+            this.btnResetSeachMH.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btnSearchMonHoc
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textBox1.Location = new System.Drawing.Point(144, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(124, 20);
-            this.textBox1.TabIndex = 4;
-            // 
-            // cbVoHieuHoa
-            // 
-            this.cbVoHieuHoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cbVoHieuHoa.AutoSize = true;
-            this.cbVoHieuHoa.Location = new System.Drawing.Point(188, 69);
-            this.cbVoHieuHoa.Name = "cbVoHieuHoa";
-            this.cbVoHieuHoa.Size = new System.Drawing.Size(80, 17);
-            this.cbVoHieuHoa.TabIndex = 5;
-            this.cbVoHieuHoa.Text = "checkBox1";
-            this.cbVoHieuHoa.UseVisualStyleBackColor = true;
-            this.cbVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbVoHieuHoa_CheckedChanged);
-            // 
-            // cbChuaVoHieuHoa
-            // 
-            this.cbChuaVoHieuHoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.cbChuaVoHieuHoa.AutoSize = true;
-            this.cbChuaVoHieuHoa.Location = new System.Drawing.Point(411, 69);
-            this.cbChuaVoHieuHoa.Name = "cbChuaVoHieuHoa";
-            this.cbChuaVoHieuHoa.Size = new System.Drawing.Size(80, 17);
-            this.cbChuaVoHieuHoa.TabIndex = 6;
-            this.cbChuaVoHieuHoa.Text = "checkBox2";
-            this.cbChuaVoHieuHoa.UseVisualStyleBackColor = true;
-            this.cbChuaVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbChuaVoHieuHoa_CheckedChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(397, 17);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "label4";
+            this.btnSearchMonHoc.Location = new System.Drawing.Point(193, 87);
+            this.btnSearchMonHoc.Name = "btnSearchMonHoc";
+            this.btnSearchMonHoc.Size = new System.Drawing.Size(99, 23);
+            this.btnSearchMonHoc.TabIndex = 9;
+            this.btnSearchMonHoc.Text = "Tìm Kiếm";
+            this.btnSearchMonHoc.UseVisualStyleBackColor = true;
+            this.btnSearchMonHoc.Click += new System.EventHandler(this.btnSearchMonHoc_Click);
             // 
             // textBox2
             // 
@@ -152,36 +119,74 @@
             this.textBox2.Size = new System.Drawing.Size(116, 20);
             this.textBox2.TabIndex = 8;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(408, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "label4";
+            // 
+            // cbChuaVoHieuHoa
+            // 
+            this.cbChuaVoHieuHoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cbChuaVoHieuHoa.AutoSize = true;
+            this.cbChuaVoHieuHoa.Location = new System.Drawing.Point(409, 69);
+            this.cbChuaVoHieuHoa.Name = "cbChuaVoHieuHoa";
+            this.cbChuaVoHieuHoa.Size = new System.Drawing.Size(80, 17);
+            this.cbChuaVoHieuHoa.TabIndex = 6;
+            this.cbChuaVoHieuHoa.Text = "checkBox2";
+            this.cbChuaVoHieuHoa.UseVisualStyleBackColor = true;
+            this.cbChuaVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbChuaVoHieuHoa_CheckedChanged);
+            // 
+            // cbVoHieuHoa
+            // 
+            this.cbVoHieuHoa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cbVoHieuHoa.AutoSize = true;
+            this.cbVoHieuHoa.Location = new System.Drawing.Point(186, 69);
+            this.cbVoHieuHoa.Name = "cbVoHieuHoa";
+            this.cbVoHieuHoa.Size = new System.Drawing.Size(80, 17);
+            this.cbVoHieuHoa.TabIndex = 5;
+            this.cbVoHieuHoa.Text = "checkBox1";
+            this.cbVoHieuHoa.UseVisualStyleBackColor = true;
+            this.cbVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbVoHieuHoa_CheckedChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.textBox1.Location = new System.Drawing.Point(142, 43);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(124, 20);
+            this.textBox1.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(63, 46);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(69, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Mã môn học:";
+            // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(0, 145);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(720, 234);
             this.dataGridView1.TabIndex = 4;
             // 
-            // btnSearchMonHoc
-            // 
-            this.btnSearchMonHoc.Location = new System.Drawing.Point(193, 87);
-            this.btnSearchMonHoc.Name = "btnSearchMonHoc";
-            this.btnSearchMonHoc.Size = new System.Drawing.Size(75, 23);
-            this.btnSearchMonHoc.TabIndex = 9;
-            this.btnSearchMonHoc.Text = "Tìm Kiếm";
-            this.btnSearchMonHoc.UseVisualStyleBackColor = true;
-            // 
-            // btnResetSeachMH
-            // 
-            this.btnResetSeachMH.Location = new System.Drawing.Point(400, 87);
-            this.btnResetSeachMH.Name = "btnResetSeachMH";
-            this.btnResetSeachMH.Size = new System.Drawing.Size(75, 23);
-            this.btnResetSeachMH.TabIndex = 10;
-            this.btnResetSeachMH.Text = "Hủy Điều Kiện";
-            this.btnResetSeachMH.UseVisualStyleBackColor = true;
-            // 
             // DanhSachMonHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pnlNhapDSMH);
             this.Controls.Add(this.label1);

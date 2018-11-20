@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace QLCD.Views.TrangChu.Control
 {
-    public partial class MenuGiaoVu : UserControl
+    public partial class EditMonHoc : UserControl
     {
-        private Form formParent;
-        
-        public MenuGiaoVu(Form form)
+        public EditMonHoc()
         {
             InitializeComponent();
-            formParent = form;
-        }
-        private void btnGiaoVu_Click(object sender, EventArgs e)
-        {
-
-            //((TrangChu)formParent).pnlChinh.Controls.Add()
         }
     }
 }

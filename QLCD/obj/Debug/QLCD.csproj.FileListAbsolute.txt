@@ -18,3 +18,4 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Vi
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuChung.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuGiaoVu.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.DanhSachMonHoc.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ThongTinDangKyChuyenDe.resources

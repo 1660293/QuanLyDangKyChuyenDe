@@ -40,6 +40,7 @@
             this.btnGiaoVu.TabIndex = 0;
             this.btnGiaoVu.Text = "Giáo Vụ";
             this.btnGiaoVu.UseVisualStyleBackColor = true;
+            this.btnGiaoVu.Click += new System.EventHandler(this.btnGiaoVu_Click);
             // 
             // MenuGiaoVu
             // 

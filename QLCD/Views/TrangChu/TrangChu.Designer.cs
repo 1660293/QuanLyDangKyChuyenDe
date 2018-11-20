@@ -54,11 +54,13 @@
             this.pnlChinh.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlChinh.AutoSize = true;
             this.pnlChinh.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pnlChinh.Location = new System.Drawing.Point(0, 107);
             this.pnlChinh.Name = "pnlChinh";
             this.pnlChinh.Size = new System.Drawing.Size(713, 341);
-            this.pnlChinh.TabIndex = 1;
+            this.pnlChinh.TabIndex = 2;
+            this.pnlChinh.TabStop = true;
             // 
             // TrangChu
             // 
@@ -72,6 +74,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.spcChucNang)).EndInit();
             this.spcChucNang.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
