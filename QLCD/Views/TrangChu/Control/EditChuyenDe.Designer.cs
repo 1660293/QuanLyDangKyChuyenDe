@@ -1,6 +1,6 @@
 ﻿namespace QLCD.Views.TrangChu.Control
 {
-    partial class CapNhatVaGiaoChuyenDe
+    partial class EditChuyenDe
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnHuyTimKiem = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
-            this.btnCapNhat = new System.Windows.Forms.Button();
             this.txtTrangThai = new System.Windows.Forms.TextBox();
             this.txtTenChuyenDe = new System.Windows.Forms.TextBox();
             this.txtLop = new System.Windows.Forms.TextBox();
@@ -41,7 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvChiTietChuyenDe = new System.Windows.Forms.DataGridView();
-            this.btnHuyTimKiem = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietChuyenDe)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +61,6 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.btnHuyTimKiem);
             this.panel1.Controls.Add(this.btnTimKiem);
-            this.panel1.Controls.Add(this.btnCapNhat);
             this.panel1.Controls.Add(this.txtTrangThai);
             this.panel1.Controls.Add(this.txtTenChuyenDe);
             this.panel1.Controls.Add(this.txtLop);
@@ -74,27 +72,28 @@
             this.panel1.Location = new System.Drawing.Point(0, 32);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(720, 110);
+            this.panel1.Size = new System.Drawing.Size(686, 110);
             this.panel1.TabIndex = 1;
+            // 
+            // btnHuyTimKiem
+            // 
+            this.btnHuyTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnHuyTimKiem.Location = new System.Drawing.Point(440, 75);
+            this.btnHuyTimKiem.Name = "btnHuyTimKiem";
+            this.btnHuyTimKiem.Size = new System.Drawing.Size(100, 23);
+            this.btnHuyTimKiem.TabIndex = 9;
+            this.btnHuyTimKiem.Text = "Hủy điều kiện";
+            this.btnHuyTimKiem.UseVisualStyleBackColor = true;
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.Location = new System.Drawing.Point(158, 80);
+            this.btnTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnTimKiem.Location = new System.Drawing.Point(196, 75);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(100, 23);
-            this.btnTimKiem.TabIndex = 10;
+            this.btnTimKiem.TabIndex = 8;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // btnCapNhat
-            // 
-            this.btnCapNhat.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnCapNhat.Location = new System.Drawing.Point(469, 80);
-            this.btnCapNhat.Name = "btnCapNhat";
-            this.btnCapNhat.Size = new System.Drawing.Size(100, 23);
-            this.btnCapNhat.TabIndex = 9;
-            this.btnCapNhat.Text = "Cập Nhật";
-            this.btnCapNhat.UseVisualStyleBackColor = true;
             // 
             // txtTrangThai
             // 
@@ -134,9 +133,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(350, 49);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 3;
-            this.label5.Text = "Sỉ số";
+            this.label5.Text = "Trạng thái:";
             // 
             // label4
             // 
@@ -172,30 +171,20 @@
             // 
             this.dgvChiTietChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dgvChiTietChuyenDe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvChiTietChuyenDe.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvChiTietChuyenDe.Location = new System.Drawing.Point(0, 145);
             this.dgvChiTietChuyenDe.Name = "dgvChiTietChuyenDe";
-            this.dgvChiTietChuyenDe.Size = new System.Drawing.Size(720, 237);
+            this.dgvChiTietChuyenDe.Size = new System.Drawing.Size(686, 218);
             this.dgvChiTietChuyenDe.TabIndex = 2;
             // 
-            // btnHuyTimKiem
-            // 
-            this.btnHuyTimKiem.Location = new System.Drawing.Point(316, 80);
-            this.btnHuyTimKiem.Name = "btnHuyTimKiem";
-            this.btnHuyTimKiem.Size = new System.Drawing.Size(95, 23);
-            this.btnHuyTimKiem.TabIndex = 11;
-            this.btnHuyTimKiem.Text = "Hủy Tìm Kiếm";
-            this.btnHuyTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // CapNhatVaGiaoChuyenDe
+            // EditChuyenDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dgvChiTietChuyenDe);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Name = "CapNhatVaGiaoChuyenDe";
-            this.Size = new System.Drawing.Size(720, 382);
+            this.Name = "EditChuyenDe";
+            this.Size = new System.Drawing.Size(686, 363);
             this.Load += new System.EventHandler(this.EditChuyenDe_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -209,17 +198,16 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnCapNhat;
+        private System.Windows.Forms.Button btnHuyTimKiem;
+        private System.Windows.Forms.Button btnTimKiem;
+        private System.Windows.Forms.TextBox txtTrangThai;
         private System.Windows.Forms.TextBox txtTenChuyenDe;
+        private System.Windows.Forms.TextBox txtLop;
         private System.Windows.Forms.TextBox txtMaChuyenDe;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgvChiTietChuyenDe;
-        private System.Windows.Forms.Button btnTimKiem;
-        private System.Windows.Forms.TextBox txtTrangThai;
-        private System.Windows.Forms.TextBox txtLop;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnHuyTimKiem;
     }
 }

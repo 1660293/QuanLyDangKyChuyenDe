@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLCD.Views.TrangChu.Control
 {
-    public partial class CapNhatVaGiaoChuyenDe : UserControl
+    public partial class EditChuyenDe : UserControl
     {
-        public CapNhatVaGiaoChuyenDe()
+        public EditChuyenDe()
         {
             InitializeComponent();
         }
@@ -27,15 +27,15 @@ namespace QLCD.Views.TrangChu.Control
             dgvChiTietChuyenDe.Columns[2].HeaderText = "Sỉ Số Tối Đa";
             dgvChiTietChuyenDe.Columns[2].Name = "siso";
 
-            dgvChiTietChuyenDe.Columns[3].HeaderText = "Lớp Học";
-            dgvChiTietChuyenDe.Columns[3].Name = "lophoc";
+            dgvChiTietChuyenDe.Columns[3].HeaderText = "Trạng Thái";
+            dgvChiTietChuyenDe.Columns[3].Name = "trangthai";
 
-            dgvChiTietChuyenDe.Rows.Add("CD0001", "Thể Thức Ca reo", 30, "LH0001");
-            dgvChiTietChuyenDe.Rows.Add("CD0002", "Nguyên  Lý Xa Gần", 35, "LH002");
-            dgvChiTietChuyenDe.Rows.Add("CD0003", "Trái Đắng", 33, "LH003");
-            dgvChiTietChuyenDe.Rows.Add("CD0004", "Năng Sói", 32, "LH004");
-            dgvChiTietChuyenDe.Rows.Add("CD0005", "Cái Chết Trắng", 29, "LH005");
-            dgvChiTietChuyenDe.Rows.Add("CD0006", "Thế Giới Phẳng", 31, "LH006");
+            dgvChiTietChuyenDe.Rows.Add("CD0001", "Thể Thức Ca reo", 30, "Đã mở");
+            dgvChiTietChuyenDe.Rows.Add("CD0002", "Nguyên  Lý Xa Gần", 35, "Chưa mở");
+            dgvChiTietChuyenDe.Rows.Add("CD0003", "Trái Đắng", 33, "Đã mở");
+            dgvChiTietChuyenDe.Rows.Add("CD0004", "Năng Sói", 32, "Chưa mở");
+            dgvChiTietChuyenDe.Rows.Add("CD0005", "Cái Chết Trắng", 29, "Chưa mở");
+            dgvChiTietChuyenDe.Rows.Add("CD0006", "Thế Giới Phẳng", 31, "Đã mở");
             DataGridViewButtonColumn btnCapNhat = new DataGridViewButtonColumn();
             btnCapNhat.UseColumnTextForButtonValue = true;
             btnCapNhat.HeaderText = "Cập Nhật Chuyên Đề";
@@ -49,7 +49,5 @@ namespace QLCD.Views.TrangChu.Control
             btnGiao.Text = "Giao";
             dgvChiTietChuyenDe.Columns.Add(btnGiao);
         }
-
-     
     }
 }

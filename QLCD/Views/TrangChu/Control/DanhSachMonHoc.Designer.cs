@@ -175,7 +175,7 @@
             this.dgvDanhSachMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.dgvDanhSachMonHoc.BackgroundColor = System.Drawing.SystemColors.Control;
             this.dgvDanhSachMonHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhSachMonHoc.Location = new System.Drawing.Point(-3, 145);
+            this.dgvDanhSachMonHoc.Location = new System.Drawing.Point(0, 145);
             this.dgvDanhSachMonHoc.Name = "dgvDanhSachMonHoc";
             this.dgvDanhSachMonHoc.Size = new System.Drawing.Size(720, 234);
             this.dgvDanhSachMonHoc.TabIndex = 4;

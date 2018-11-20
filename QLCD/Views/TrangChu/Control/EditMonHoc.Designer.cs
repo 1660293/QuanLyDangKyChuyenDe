@@ -74,7 +74,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, 32);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(717, 100);
+            this.panel1.Size = new System.Drawing.Size(714, 100);
             this.panel1.TabIndex = 2;
             // 
             // btnXoaMonHoc
@@ -110,7 +110,7 @@
             // nudSoChi
             // 
             this.nudSoChi.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.nudSoChi.Location = new System.Drawing.Point(462, 39);
+            this.nudSoChi.Location = new System.Drawing.Point(461, 39);
             this.nudSoChi.Maximum = new decimal(new int[] {
             10,
             0,
@@ -202,7 +202,7 @@
             this.dgvSuaMonHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSuaMonHoc.Location = new System.Drawing.Point(0, 133);
             this.dgvSuaMonHoc.Name = "dgvSuaMonHoc";
-            this.dgvSuaMonHoc.Size = new System.Drawing.Size(720, 247);
+            this.dgvSuaMonHoc.Size = new System.Drawing.Size(714, 247);
             this.dgvSuaMonHoc.TabIndex = 3;
             // 
             // EditMonHoc
@@ -213,7 +213,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "EditMonHoc";
-            this.Size = new System.Drawing.Size(720, 382);
+            this.Size = new System.Drawing.Size(714, 383);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudSoChi)).EndInit();

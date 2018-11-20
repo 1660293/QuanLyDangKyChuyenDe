@@ -22,7 +22,7 @@ namespace QLCD.Views.TrangChu.Control
         private void btnGiaoVu_Click(object sender, EventArgs e)
         {
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
-            CapNhatVaGiaoChuyenDe edcd = new CapNhatVaGiaoChuyenDe();
+            EditChuyenDe edcd = new EditChuyenDe();
             edcd.Dock = DockStyle.Fill;
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edcd);
         }

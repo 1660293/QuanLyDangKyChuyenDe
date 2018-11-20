@@ -23,11 +23,9 @@ namespace QLCD.Views.TrangChu
             menuGiaoVien.Dock = DockStyle.Fill;
             spcGiaoVuGiaoVien.Panel1.Controls.Add(menuGiaoVu);
             spcGiaoVuGiaoVien.Panel2.Controls.Add(menuGiaoVien);
-            spcGiaoVuGiaoVien.Panel1Collapsed = true;
             MenuChung menuChung = new Control.MenuChung(this);
             menuChung.Dock = DockStyle.Fill;
             spChucNang.Panel1.Controls.Add(menuChung);
-            if(spcGiaoVuGiaoVien.Panel1Collapsed==true) spChucNang.SplitterDistance = 360;
         }
 
         private void spcChucNang_Panel2_Paint(object sender, PaintEventArgs e)
@@ -35,7 +33,7 @@ namespace QLCD.Views.TrangChu
 
         }
 
-        private void TrangChu_Load(object sender, EventArgs e)
+        private void spChucNang_Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

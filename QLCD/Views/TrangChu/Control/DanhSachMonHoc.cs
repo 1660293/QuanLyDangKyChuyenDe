@@ -49,50 +49,34 @@ namespace QLCD.Views.TrangChu.Control
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvDanhSachMonHoc.Columns[dgvDanhSachMonHoc.CurrentCell.ColumnIndex].Name == "btnChiTiet")
-            {
-                int index = dgvDanhSachMonHoc.CurrentRow.Index;
 
-                MoChuyenDe mcd = new MoChuyenDe();
-                mcd.Dock = DockStyle.Fill; 
-                NhapLieuDialog nld = new NhapLieuDialog(mcd,"Chi Tiết Chuyên Đề");
-                nld.Size = mcd.Size;
-                nld.ShowDialog();
-
-
-            }
         }
 
         private void DanhSachMonHoc_Load(object sender, EventArgs e)
         {
-            dgvDanhSachMonHoc.ColumnCount = 3;
+            dgvDanhSachMonHoc.ColumnCount = 4;
             dgvDanhSachMonHoc.Columns[0].HeaderText = "Mã Môn Học";
             dgvDanhSachMonHoc.Columns[0].Name = "maMH";
             dgvDanhSachMonHoc.Columns[1].HeaderText = "Tên Môn Học";
             dgvDanhSachMonHoc.Columns[1].Name = "tenCD";
             dgvDanhSachMonHoc.Columns[2].HeaderText = "Sỉ Số Tối Đa";
             dgvDanhSachMonHoc.Columns[2].Name = "siso";
-            dgvDanhSachMonHoc.Rows.Add("CD0001", "Thể Thức Ca reo", 30);
-            dgvDanhSachMonHoc.Rows.Add("CD0002", "Nguyên  Lý Xa Gần", 35);
-            dgvDanhSachMonHoc.Rows.Add("CD0003", "Trái Đắng", 33);
-            dgvDanhSachMonHoc.Rows.Add("CD0004", "Năng Sói", 32);
-            dgvDanhSachMonHoc.Rows.Add("CD0005", "Cái Chết Trắng", 29);
-            dgvDanhSachMonHoc.Rows.Add("CD0006", "Thế Giới Phẳng", 31);
-            DataGridViewButtonColumn btnChiTiet = new DataGridViewButtonColumn();
-            btnChiTiet.UseColumnTextForButtonValue = true;
-            btnChiTiet.HeaderText = "Chi Tiết";
-            btnChiTiet.Name = "btnChiTiet";
-            btnChiTiet.Text = "Xem";
-            dgvDanhSachMonHoc.Columns.Add(btnChiTiet);
 
-            DataGridViewButtonColumn btnTrangThai = new DataGridViewButtonColumn();
-            btnTrangThai.UseColumnTextForButtonValue = true;
-            btnTrangThai.HeaderText = "Chi Tiết";
-            btnTrangThai.Name = "btnTrangThai";
-            btnTrangThai.Text = "Đã Mở";
-            dgvDanhSachMonHoc.Columns.Add(btnTrangThai);
-        
-            
+            dgvDanhSachMonHoc.Columns[3].HeaderText = "Trạng Thái";
+            dgvDanhSachMonHoc.Columns[3].Name = "trangthai";
+
+            dgvDanhSachMonHoc.Rows.Add("CD0001", "Thể Thức Ca reo", 30, "Đã mở");
+            dgvDanhSachMonHoc.Rows.Add("CD0002", "Nguyên  Lý Xa Gần", 35, "Chưa mở");
+            dgvDanhSachMonHoc.Rows.Add("CD0003", "Trái Đắng", 33, "Đã mở");
+            dgvDanhSachMonHoc.Rows.Add("CD0004", "Năng Sói", 32, "Chưa mở");
+            dgvDanhSachMonHoc.Rows.Add("CD0005", "Cái Chết Trắng", 29, "Chưa mở");
+            dgvDanhSachMonHoc.Rows.Add("CD0006", "Thế Giới Phẳng", 31, "Đã mở");
+            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            btn.UseColumnTextForButtonValue = true;
+            btn.HeaderText = "Chi Tiết";
+            btn.Name = "btnChiTiet";
+            btn.Text = "Xem";
+            dgvDanhSachMonHoc.Columns.Add(btn);
         }
     }
 }

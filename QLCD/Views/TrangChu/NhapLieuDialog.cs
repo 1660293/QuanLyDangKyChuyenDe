@@ -12,12 +12,11 @@ namespace QLCD.Views.TrangChu
 {
     public partial class NhapLieuDialog : Form
     {
-        public NhapLieuDialog(UserControl ctl,string name)
+        public NhapLieuDialog(UserControl ctl)
         {
             InitializeComponent();
             ctl.Dock = DockStyle.Fill;
             pnlDialog.Controls.Add(ctl);
-            this.Text = name;
         }
 
     }
