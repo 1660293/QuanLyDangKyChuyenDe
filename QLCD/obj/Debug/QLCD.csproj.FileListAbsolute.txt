@@ -24,6 +24,7 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Vi
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ChiTietChuyenDe.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuGiaoVien.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuChung.resources
+<<<<<<< HEAD
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\bin\Debug\QLCD.exe.config
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.exe
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.pdb
@@ -50,3 +51,7 @@ C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.Trang
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.TrangChu.resources
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.csproj.GenerateResource.Cache
 C:\Users\dinhh\Desktop\DoAn\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.uc_XemKetQua.resources
+=======
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.VoHieuHoaMonHoc.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.HuyVoHieuHoa.resources
+>>>>>>> update UI

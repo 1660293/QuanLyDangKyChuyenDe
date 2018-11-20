@@ -52,8 +52,8 @@
             // spcGiaoVuGiaoVien.Panel2
             // 
             this.spcGiaoVuGiaoVien.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.spcChucNang_Panel2_Paint);
-            this.spcGiaoVuGiaoVien.Size = new System.Drawing.Size(702, 100);
-            this.spcGiaoVuGiaoVien.SplitterDistance = 526;
+            this.spcGiaoVuGiaoVien.Size = new System.Drawing.Size(557, 100);
+            this.spcGiaoVuGiaoVien.SplitterDistance = 417;
             this.spcGiaoVuGiaoVien.TabIndex = 0;
             // 
             // pnlChinh
@@ -63,9 +63,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlChinh.AutoSize = true;
             this.pnlChinh.BackColor = System.Drawing.SystemColors.Control;
-            this.pnlChinh.Location = new System.Drawing.Point(0, 107);
+            this.pnlChinh.Location = new System.Drawing.Point(1, 107);
             this.pnlChinh.Name = "pnlChinh";
+<<<<<<< HEAD
             this.pnlChinh.Size = new System.Drawing.Size(835, 357);
+=======
+            this.pnlChinh.Size = new System.Drawing.Size(725, 404);
+>>>>>>> update UI
             this.pnlChinh.TabIndex = 2;
             this.pnlChinh.TabStop = true;
             // 
@@ -82,19 +86,24 @@
             // spChucNang.Panel2
             // 
             this.spChucNang.Panel2.Controls.Add(this.spcGiaoVuGiaoVien);
-            this.spChucNang.Size = new System.Drawing.Size(906, 100);
-            this.spChucNang.SplitterDistance = 200;
+            this.spChucNang.Size = new System.Drawing.Size(719, 100);
+            this.spChucNang.SplitterDistance = 158;
             this.spChucNang.TabIndex = 3;
             // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(836, 463);
+=======
+            this.ClientSize = new System.Drawing.Size(724, 510);
+>>>>>>> update UI
             this.Controls.Add(this.spChucNang);
             this.Controls.Add(this.pnlChinh);
             this.Name = "TrangChu";
             this.Text = "Xem Thông Tin Đăng Ký Chuyên Đề";
+            this.Load += new System.EventHandler(this.TrangChu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.spcGiaoVuGiaoVien)).EndInit();
             this.spcGiaoVuGiaoVien.ResumeLayout(false);
             this.spChucNang.Panel2.ResumeLayout(false);

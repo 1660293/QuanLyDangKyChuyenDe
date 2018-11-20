@@ -72,13 +72,17 @@
             this.panel1.Location = new System.Drawing.Point(0, 32);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(686, 110);
+            this.panel1.Size = new System.Drawing.Size(720, 110);
             this.panel1.TabIndex = 1;
             // 
             // btnHuyTimKiem
             // 
             this.btnHuyTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+<<<<<<< HEAD
             this.btnHuyTimKiem.Location = new System.Drawing.Point(440, 75);
+=======
+            this.btnHuyTimKiem.Location = new System.Drawing.Point(457, 75);
+>>>>>>> update UI
             this.btnHuyTimKiem.Name = "btnHuyTimKiem";
             this.btnHuyTimKiem.Size = new System.Drawing.Size(100, 23);
             this.btnHuyTimKiem.TabIndex = 9;
@@ -88,7 +92,11 @@
             // btnTimKiem
             // 
             this.btnTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+<<<<<<< HEAD
             this.btnTimKiem.Location = new System.Drawing.Point(196, 75);
+=======
+            this.btnTimKiem.Location = new System.Drawing.Point(213, 75);
+>>>>>>> update UI
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(100, 23);
             this.btnTimKiem.TabIndex = 8;
@@ -98,7 +106,11 @@
             // txtTrangThai
             // 
             this.txtTrangThai.Anchor = System.Windows.Forms.AnchorStyles.Top;
+<<<<<<< HEAD
             this.txtTrangThai.Location = new System.Drawing.Point(440, 46);
+=======
+            this.txtTrangThai.Location = new System.Drawing.Point(457, 46);
+>>>>>>> update UI
             this.txtTrangThai.Name = "txtTrangThai";
             this.txtTrangThai.Size = new System.Drawing.Size(100, 20);
             this.txtTrangThai.TabIndex = 7;
@@ -106,7 +118,11 @@
             // txtTenChuyenDe
             // 
             this.txtTenChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+<<<<<<< HEAD
             this.txtTenChuyenDe.Location = new System.Drawing.Point(440, 16);
+=======
+            this.txtTenChuyenDe.Location = new System.Drawing.Point(457, 16);
+>>>>>>> update UI
             this.txtTenChuyenDe.Name = "txtTenChuyenDe";
             this.txtTenChuyenDe.Size = new System.Drawing.Size(100, 20);
             this.txtTenChuyenDe.TabIndex = 6;
@@ -114,7 +130,7 @@
             // txtLop
             // 
             this.txtLop.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtLop.Location = new System.Drawing.Point(196, 49);
+            this.txtLop.Location = new System.Drawing.Point(213, 49);
             this.txtLop.Name = "txtLop";
             this.txtLop.Size = new System.Drawing.Size(100, 20);
             this.txtLop.TabIndex = 5;
@@ -122,7 +138,11 @@
             // txtMaChuyenDe
             // 
             this.txtMaChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+<<<<<<< HEAD
             this.txtMaChuyenDe.Location = new System.Drawing.Point(196, 16);
+=======
+            this.txtMaChuyenDe.Location = new System.Drawing.Point(213, 16);
+>>>>>>> update UI
             this.txtMaChuyenDe.Name = "txtMaChuyenDe";
             this.txtMaChuyenDe.Size = new System.Drawing.Size(100, 20);
             this.txtMaChuyenDe.TabIndex = 4;
@@ -131,7 +151,11 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
+<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(350, 49);
+=======
+            this.label5.Location = new System.Drawing.Point(367, 49);
+>>>>>>> update UI
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 13);
             this.label5.TabIndex = 3;
@@ -141,7 +165,11 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(110, 49);
+=======
+            this.label4.Location = new System.Drawing.Point(127, 49);
+>>>>>>> update UI
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(28, 13);
             this.label4.TabIndex = 2;
@@ -151,7 +179,11 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
+<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(350, 16);
+=======
+            this.label3.Location = new System.Drawing.Point(367, 16);
+>>>>>>> update UI
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 13);
             this.label3.TabIndex = 1;
@@ -161,7 +193,11 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(110, 16);
+=======
+            this.label2.Location = new System.Drawing.Point(127, 16);
+>>>>>>> update UI
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 13);
             this.label2.TabIndex = 0;
@@ -169,11 +205,17 @@
             // 
             // dgvChiTietChuyenDe
             // 
+<<<<<<< HEAD
             this.dgvChiTietChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+=======
+            this.dgvChiTietChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dgvChiTietChuyenDe.BackgroundColor = System.Drawing.SystemColors.Control;
+>>>>>>> update UI
             this.dgvChiTietChuyenDe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChiTietChuyenDe.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvChiTietChuyenDe.Location = new System.Drawing.Point(0, 145);
             this.dgvChiTietChuyenDe.Name = "dgvChiTietChuyenDe";
-            this.dgvChiTietChuyenDe.Size = new System.Drawing.Size(686, 218);
+            this.dgvChiTietChuyenDe.Size = new System.Drawing.Size(720, 237);
             this.dgvChiTietChuyenDe.TabIndex = 2;
             // 
             // EditChuyenDe
@@ -184,7 +226,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "EditChuyenDe";
-            this.Size = new System.Drawing.Size(686, 363);
+            this.Size = new System.Drawing.Size(720, 382);
             this.Load += new System.EventHandler(this.EditChuyenDe_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
