@@ -1,23 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QLCD.Views.TrangChu
+namespace QLCD.Views.TrangChu.Control
 {
-    public partial class NhapLieuDialog : Form
+    public partial class ChiTietChuyenDe : UserControl
     {
-        public NhapLieuDialog(UserControl ctl)
+        public ChiTietChuyenDe()
         {
             InitializeComponent();
-            ctl.Dock = DockStyle.Fill;
-            pnlDialog.Controls.Add(ctl);
         }
-
     }
 }

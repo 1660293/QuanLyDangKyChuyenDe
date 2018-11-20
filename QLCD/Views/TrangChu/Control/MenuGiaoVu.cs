@@ -21,8 +21,10 @@ namespace QLCD.Views.TrangChu.Control
         }
         private void btnGiaoVu_Click(object sender, EventArgs e)
         {
-
-            //((TrangChu)formParent).pnlChinh.Controls.Add()
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
+            EditChuyenDe edcd = new EditChuyenDe();
+            edcd.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edcd);
         }
     }
 }

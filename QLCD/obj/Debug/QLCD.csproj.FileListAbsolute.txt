@@ -19,3 +19,7 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Vi
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuGiaoVu.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.DanhSachMonHoc.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ThongTinDangKyChuyenDe.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.EditChuyenDe.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.EditMonHoc.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.NhapLieuDialog.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ChiTietChuyenDe.resources

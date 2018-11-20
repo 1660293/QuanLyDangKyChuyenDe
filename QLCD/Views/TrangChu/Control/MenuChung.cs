@@ -47,7 +47,9 @@ namespace QLCD.Views.TrangChu.Control
         private void btnCapNhatMonHoc_Click(object sender, EventArgs e)
         {
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
-            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(new DanhSachMonHoc());
+            EditMonHoc edmh = new EditMonHoc();
+            edmh.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edmh);
         }
     }
 }

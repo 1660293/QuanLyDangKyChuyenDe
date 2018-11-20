@@ -13,6 +13,7 @@ namespace QLCD.Views.TrangChu
 {
     public partial class TrangChu : Form
     {
+        
         public TrangChu()
         {
             InitializeComponent();

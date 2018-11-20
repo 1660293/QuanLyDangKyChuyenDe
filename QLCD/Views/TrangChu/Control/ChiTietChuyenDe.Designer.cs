@@ -1,6 +1,6 @@
 ﻿namespace QLCD.Views.TrangChu.Control
 {
-    partial class EditMonHoc
+    partial class ChiTietChuyenDe
     {
         /// <summary> 
         /// Required designer variable.
@@ -34,20 +34,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 4);
+            this.label1.Location = new System.Drawing.Point(118, 85);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 25);
+            this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Sửa môn học";
+            this.label1.Text = "jkasdhfjklasdhf";
             // 
-            // EditMonHoc
+            // ChiTietChuyenDe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Controls.Add(this.label1);
-            this.Name = "EditMonHoc";
-            this.Size = new System.Drawing.Size(714, 383);
+            this.Name = "ChiTietChuyenDe";
+            this.Size = new System.Drawing.Size(241, 215);
             this.ResumeLayout(false);
             this.PerformLayout();
 

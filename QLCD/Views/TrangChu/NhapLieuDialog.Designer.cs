@@ -38,7 +38,6 @@
             this.pnlDialog.Name = "pnlDialog";
             this.pnlDialog.Size = new System.Drawing.Size(284, 261);
             this.pnlDialog.TabIndex = 0;
-
             // 
             // NhapLieuDialog
             // 
@@ -46,6 +45,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.pnlDialog);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "NhapLieuDialog";
             this.Text = "a";
             this.ResumeLayout(false);
