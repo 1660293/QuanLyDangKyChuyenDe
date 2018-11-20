@@ -118,17 +118,23 @@
     <Compile Include="Views\TrangChu\Control\DanhSachMonHoc.Designer.cs">
       <DependentUpon>DanhSachMonHoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TrangChu\Control\EditChuyenDe.cs">
+    <Compile Include="Views\TrangChu\Control\CapNhatVaGiaoChuyenDe.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\TrangChu\Control\EditChuyenDe.Designer.cs">
-      <DependentUpon>EditChuyenDe.cs</DependentUpon>
+    <Compile Include="Views\TrangChu\Control\CapNhatVaGiaoChuyenDe.Designer.cs">
+      <DependentUpon>CapNhatVaGiaoChuyenDe.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\TrangChu\Control\EditMonHoc.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\TrangChu\Control\EditMonHoc.Designer.cs">
       <DependentUpon>EditMonHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\HuyVoHieuHoa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\HuyVoHieuHoa.Designer.cs">
+      <DependentUpon>HuyVoHieuHoa.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\TrangChu\Control\MenuChung.cs">
       <SubType>UserControl</SubType>
@@ -148,6 +154,12 @@
     <Compile Include="Views\TrangChu\Control\MenuGiaoVien.Designer.cs">
       <DependentUpon>MenuGiaoVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\TrangChu\Control\MoChuyenDe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\MoChuyenDe.Designer.cs">
+      <DependentUpon>MoChuyenDe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\TrangChu\Control\ThongTinDangKyChuyenDe.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -159,6 +171,12 @@
     </Compile>
     <Compile Include="Views\TrangChu\Control\uc_XemKetQua.Designer.cs">
       <DependentUpon>uc_XemKetQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\VoHieuHoaMonHoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\VoHieuHoaMonHoc.Designer.cs">
+      <DependentUpon>VoHieuHoaMonHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\TrangChu\NhapLieuDialog.cs">
       <SubType>Form</SubType>
@@ -186,11 +204,14 @@
     <EmbeddedResource Include="Views\TrangChu\Control\DanhSachMonHoc.resx">
       <DependentUpon>DanhSachMonHoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\TrangChu\Control\EditChuyenDe.resx">
-      <DependentUpon>EditChuyenDe.cs</DependentUpon>
+    <EmbeddedResource Include="Views\TrangChu\Control\CapNhatVaGiaoChuyenDe.resx">
+      <DependentUpon>CapNhatVaGiaoChuyenDe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\EditMonHoc.resx">
       <DependentUpon>EditMonHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TrangChu\Control\HuyVoHieuHoa.resx">
+      <DependentUpon>HuyVoHieuHoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\MenuChung.resx">
       <DependentUpon>MenuChung.cs</DependentUpon>
@@ -201,11 +222,17 @@
     <EmbeddedResource Include="Views\TrangChu\Control\MenuGiaoVien.resx">
       <DependentUpon>MenuGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\TrangChu\Control\MoChuyenDe.resx">
+      <DependentUpon>MoChuyenDe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\ThongTinDangKyChuyenDe.resx">
       <DependentUpon>ThongTinDangKyChuyenDe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\uc_XemKetQua.resx">
       <DependentUpon>uc_XemKetQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TrangChu\Control\VoHieuHoaMonHoc.resx">
+      <DependentUpon>VoHieuHoaMonHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\NhapLieuDialog.resx">
       <DependentUpon>NhapLieuDialog.cs</DependentUpon>

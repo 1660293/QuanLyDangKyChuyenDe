@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace QLCD.Views.TrangChu.Control
 {
-    public partial class ChiTietChuyenDe : UserControl
+    public partial class MoChuyenDe : UserControl
     {
-
-        public ChiTietChuyenDe(string macd,string tencd,string sisotoida)
+        public MoChuyenDe()
         {
             InitializeComponent();
-            lbTenCD.Text = lbTenCD1.Text = tencd;
-            lbMaCD.Text = macd;
-            lbSiSoCD.Text = sisotoida;
-            lbSoNguoiDK.Text = "14";
         }
-
-      
     }
 }
