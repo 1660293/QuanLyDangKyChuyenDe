@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGiaoVu = new System.Windows.Forms.Button();
+            this.btnGiaoVien = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnGiaoVu
+            // btnGiaoVien
             // 
-            this.btnGiaoVu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnGiaoVu.Location = new System.Drawing.Point(0, 18);
-            this.btnGiaoVu.Name = "btnGiaoVu";
-            this.btnGiaoVu.Size = new System.Drawing.Size(126, 48);
-            this.btnGiaoVu.TabIndex = 0;
-            this.btnGiaoVu.Text = "Giáo Vụ";
-            this.btnGiaoVu.UseVisualStyleBackColor = true;
-            this.btnGiaoVu.Click += new System.EventHandler(this.btnGiaoVu_Click);
+            this.btnGiaoVien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnGiaoVien.Location = new System.Drawing.Point(0, 18);
+            this.btnGiaoVien.Name = "btnGiaoVien";
+            this.btnGiaoVien.Size = new System.Drawing.Size(126, 48);
+            this.btnGiaoVien.TabIndex = 0;
+            this.btnGiaoVien.Text = "Giáo Viên";
+            this.btnGiaoVien.UseVisualStyleBackColor = true;
+            this.btnGiaoVien.Click += new System.EventHandler(this.btnGiaoVu_Click);
             // 
-            // MenuGiaoVu
+            // MenuGiaoVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btnGiaoVu);
-            this.Name = "MenuGiaoVu";
+            this.Controls.Add(this.btnGiaoVien);
+            this.Name = "MenuGiaoVien";
             this.Size = new System.Drawing.Size(142, 84);
             this.ResumeLayout(false);
 
@@ -55,6 +55,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnGiaoVu;
+        private System.Windows.Forms.Button btnGiaoVien;
     }
 }

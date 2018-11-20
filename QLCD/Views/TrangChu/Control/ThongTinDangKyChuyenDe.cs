@@ -31,21 +31,21 @@ namespace QLCD.Views.TrangChu.Control
             dgvThongTinChuyenDe.Columns[2].HeaderText = "Sỉ Số Tối Đa";
             dgvThongTinChuyenDe.Columns[2].Name = "siso";
             
-            dgvThongTinChuyenDe.Columns[3].HeaderText = "Trạng Thái";
-            dgvThongTinChuyenDe.Columns[3].Name = "trangthai";
+            dgvThongTinChuyenDe.Columns[3].HeaderText = "SL Đăng ký";
+            dgvThongTinChuyenDe.Columns[3].Name = "slDangKy";
 
-            dgvThongTinChuyenDe.Rows.Add("CD0001", "Thể Thức Ca reo",30,"Đã mở");
-            dgvThongTinChuyenDe.Rows.Add("CD0002", "Nguyên  Lý Xa Gần",35,"Chưa mở");
-            dgvThongTinChuyenDe.Rows.Add("CD0003", "Trái Đắng",33,"Đã mở");
-            dgvThongTinChuyenDe.Rows.Add("CD0004", "Năng Sói",32,"Chưa mở");
-            dgvThongTinChuyenDe.Rows.Add("CD0005", "Cái Chết Trắng",29,"Chưa mở");
-            dgvThongTinChuyenDe.Rows.Add("CD0006", "Thế Giới Phẳng",31,"Đã mở");
-            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
-            btn.UseColumnTextForButtonValue = true;
-            btn.HeaderText = "Chi Tiết";
-            btn.Name = "btnChiTiet";
-            btn.Text = "Xem";
-            dgvThongTinChuyenDe.Columns.Add(btn);
+            dgvThongTinChuyenDe.Rows.Add("CD0001", "Thể Thức Ca reo",30,10);
+            dgvThongTinChuyenDe.Rows.Add("CD0002", "Nguyên  Lý Xa Gần",35,3);
+            dgvThongTinChuyenDe.Rows.Add("CD0003", "Trái Đắng", 33, 24);
+            dgvThongTinChuyenDe.Rows.Add("CD0004", "Năng Sói", 32,32);
+            dgvThongTinChuyenDe.Rows.Add("CD0005", "Cái Chết Trắng", 29, 28);
+            dgvThongTinChuyenDe.Rows.Add("CD0006", "Thế Giới Phẳng", 31, 0);
+            //DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            //btn.UseColumnTextForButtonValue = true;
+            //btn.HeaderText = "Chi Tiết";
+            //btn.Name = "btnChiTiet";
+            //btn.Text = "Xem";
+            //dgvThongTinChuyenDe.Columns.Add(btn);
 
         }
 

@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCapNhatMonHoc = new System.Windows.Forms.Button();
-            this.btnXemDSMonHoc = new System.Windows.Forms.Button();
-            this.btnXemTTChuyenDe = new System.Windows.Forms.Button();
+            this.btnThongTinChuyenDe = new System.Windows.Forms.Button();
+            this.btnXemDSChuyenDe = new System.Windows.Forms.Button();
+            this.btnXemTTDKChuyenDe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnCapNhatMonHoc
+            // btnThongTinChuyenDe
             // 
-            this.btnCapNhatMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnCapNhatMonHoc.Location = new System.Drawing.Point(380, 17);
-            this.btnCapNhatMonHoc.Name = "btnCapNhatMonHoc";
-            this.btnCapNhatMonHoc.Size = new System.Drawing.Size(134, 65);
-            this.btnCapNhatMonHoc.TabIndex = 5;
-            this.btnCapNhatMonHoc.Text = "Xem Thông Tin Môn Học";
-            this.btnCapNhatMonHoc.UseVisualStyleBackColor = true;
-            this.btnCapNhatMonHoc.Click += new System.EventHandler(this.btnCapNhatMonHoc_Click);
+            this.btnThongTinChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnThongTinChuyenDe.Location = new System.Drawing.Point(380, 17);
+            this.btnThongTinChuyenDe.Name = "btnThongTinChuyenDe";
+            this.btnThongTinChuyenDe.Size = new System.Drawing.Size(134, 65);
+            this.btnThongTinChuyenDe.TabIndex = 5;
+            this.btnThongTinChuyenDe.Text = "Xem Thông Tin Chuyên Đề";
+            this.btnThongTinChuyenDe.UseVisualStyleBackColor = true;
+            this.btnThongTinChuyenDe.Click += new System.EventHandler(this.btnXemTTChuyenDe_Click);
             // 
-            // btnXemDSMonHoc
+            // btnXemDSChuyenDe
             // 
-            this.btnXemDSMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnXemDSMonHoc.Location = new System.Drawing.Point(187, 15);
-            this.btnXemDSMonHoc.Name = "btnXemDSMonHoc";
-            this.btnXemDSMonHoc.Size = new System.Drawing.Size(139, 65);
-            this.btnXemDSMonHoc.TabIndex = 4;
-            this.btnXemDSMonHoc.Text = "Xem Danh Sách Môn Học ";
-            this.btnXemDSMonHoc.UseVisualStyleBackColor = true;
-            this.btnXemDSMonHoc.Click += new System.EventHandler(this.btnXemDSMonHoc_Click);
+            this.btnXemDSChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnXemDSChuyenDe.Location = new System.Drawing.Point(187, 15);
+            this.btnXemDSChuyenDe.Name = "btnXemDSChuyenDe";
+            this.btnXemDSChuyenDe.Size = new System.Drawing.Size(139, 65);
+            this.btnXemDSChuyenDe.TabIndex = 4;
+            this.btnXemDSChuyenDe.Text = "Xem Danh Sách Chuyên Đề";
+            this.btnXemDSChuyenDe.UseVisualStyleBackColor = true;
+            this.btnXemDSChuyenDe.Click += new System.EventHandler(this.btnXemDSChuyenDe_Click);
             // 
-            // btnXemTTChuyenDe
+            // btnXemTTDKChuyenDe
             // 
-            this.btnXemTTChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnXemTTChuyenDe.Location = new System.Drawing.Point(25, 16);
-            this.btnXemTTChuyenDe.Name = "btnXemTTChuyenDe";
-            this.btnXemTTChuyenDe.Size = new System.Drawing.Size(117, 65);
-            this.btnXemTTChuyenDe.TabIndex = 3;
-            this.btnXemTTChuyenDe.Text = "Xem Thông Tin Đăng ký Chuyên Đề";
-            this.btnXemTTChuyenDe.UseVisualStyleBackColor = true;
-            this.btnXemTTChuyenDe.Click += new System.EventHandler(this.btnXemTTChuyenDe_Click);
+            this.btnXemTTDKChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnXemTTDKChuyenDe.Location = new System.Drawing.Point(25, 16);
+            this.btnXemTTDKChuyenDe.Name = "btnXemTTDKChuyenDe";
+            this.btnXemTTDKChuyenDe.Size = new System.Drawing.Size(117, 65);
+            this.btnXemTTDKChuyenDe.TabIndex = 3;
+            this.btnXemTTDKChuyenDe.Text = "Xem Thông Tin Đăng ký Chuyên Đề";
+            this.btnXemTTDKChuyenDe.UseVisualStyleBackColor = true;
+            this.btnXemTTDKChuyenDe.Click += new System.EventHandler(this.btnXemTTDKChuyenDe_Click);
             // 
             // MenuGiaoVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CausesValidation = false;
-            this.Controls.Add(this.btnCapNhatMonHoc);
-            this.Controls.Add(this.btnXemDSMonHoc);
-            this.Controls.Add(this.btnXemTTChuyenDe);
+            this.Controls.Add(this.btnThongTinChuyenDe);
+            this.Controls.Add(this.btnXemDSChuyenDe);
+            this.Controls.Add(this.btnXemTTDKChuyenDe);
             this.Name = "MenuGiaoVu";
             this.Size = new System.Drawing.Size(558, 100);
             this.ResumeLayout(false);
@@ -82,8 +82,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCapNhatMonHoc;
-        private System.Windows.Forms.Button btnXemDSMonHoc;
-        private System.Windows.Forms.Button btnXemTTChuyenDe;
+        private System.Windows.Forms.Button btnThongTinChuyenDe;
+        private System.Windows.Forms.Button btnXemDSChuyenDe;
+        private System.Windows.Forms.Button btnXemTTDKChuyenDe;
     }
 }

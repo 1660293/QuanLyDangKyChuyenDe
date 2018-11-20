@@ -93,7 +93,7 @@
             this.btnMatKhau.Name = "btnMatKhau";
             this.btnMatKhau.Size = new System.Drawing.Size(109, 25);
             this.btnMatKhau.TabIndex = 4;
-            this.btnMatKhau.Text = "Mật Khẩu";
+            this.btnMatKhau.Text = "Đăng nhập";
             this.btnMatKhau.UseVisualStyleBackColor = false;
             this.btnMatKhau.UseWaitCursor = true;
             this.btnMatKhau.Click += new System.EventHandler(this.btnMatKhau_Click);
@@ -122,7 +122,6 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Đăng Nhập";
             this.label3.UseWaitCursor = true;
-
             // 
             // lbicon
             // 
@@ -156,7 +155,6 @@
             this.RightToLeftLayout = true;
             this.Text = "Đăng Nhập";
             this.UseWaitCursor = true;
-
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -30,16 +30,16 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtMaChuyenDe = new System.Windows.Forms.TextBox();
-            this.txtLop = new System.Windows.Forms.TextBox();
-            this.txtTenChuyenDe = new System.Windows.Forms.TextBox();
-            this.txtTrangThai = new System.Windows.Forms.TextBox();
-            this.btnTimKiem = new System.Windows.Forms.Button();
             this.btnHuyTimKiem = new System.Windows.Forms.Button();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.txtTrangThai = new System.Windows.Forms.TextBox();
+            this.txtTenChuyenDe = new System.Windows.Forms.TextBox();
+            this.txtLop = new System.Windows.Forms.TextBox();
+            this.txtMaChuyenDe = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dgvChiTietChuyenDe = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietChuyenDe)).BeginInit();
@@ -75,77 +75,15 @@
             this.panel1.Size = new System.Drawing.Size(686, 110);
             this.panel1.TabIndex = 1;
             // 
-            // label2
+            // btnHuyTimKiem
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(110, 16);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Mã chuyên đề:";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(350, 16);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Tên chuyên đề:";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(110, 49);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Lớp:";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(350, 49);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Trạng thái:";
-            // 
-            // txtMaChuyenDe
-            // 
-            this.txtMaChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtMaChuyenDe.Location = new System.Drawing.Point(196, 16);
-            this.txtMaChuyenDe.Name = "txtMaChuyenDe";
-            this.txtMaChuyenDe.Size = new System.Drawing.Size(100, 20);
-            this.txtMaChuyenDe.TabIndex = 4;
-            // 
-            // txtLop
-            // 
-            this.txtLop.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtLop.Location = new System.Drawing.Point(196, 49);
-            this.txtLop.Name = "txtLop";
-            this.txtLop.Size = new System.Drawing.Size(100, 20);
-            this.txtLop.TabIndex = 5;
-            // 
-            // txtTenChuyenDe
-            // 
-            this.txtTenChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtTenChuyenDe.Location = new System.Drawing.Point(440, 16);
-            this.txtTenChuyenDe.Name = "txtTenChuyenDe";
-            this.txtTenChuyenDe.Size = new System.Drawing.Size(100, 20);
-            this.txtTenChuyenDe.TabIndex = 6;
-            // 
-            // txtTrangThai
-            // 
-            this.txtTrangThai.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtTrangThai.Location = new System.Drawing.Point(440, 46);
-            this.txtTrangThai.Name = "txtTrangThai";
-            this.txtTrangThai.Size = new System.Drawing.Size(100, 20);
-            this.txtTrangThai.TabIndex = 7;
+            this.btnHuyTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnHuyTimKiem.Location = new System.Drawing.Point(440, 75);
+            this.btnHuyTimKiem.Name = "btnHuyTimKiem";
+            this.btnHuyTimKiem.Size = new System.Drawing.Size(100, 23);
+            this.btnHuyTimKiem.TabIndex = 9;
+            this.btnHuyTimKiem.Text = "Hủy điều kiện";
+            this.btnHuyTimKiem.UseVisualStyleBackColor = true;
             // 
             // btnTimKiem
             // 
@@ -157,19 +95,81 @@
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
             // 
-            // btnHuyTimKiem
+            // txtTrangThai
             // 
-            this.btnHuyTimKiem.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnHuyTimKiem.Location = new System.Drawing.Point(440, 75);
-            this.btnHuyTimKiem.Name = "btnHuyTimKiem";
-            this.btnHuyTimKiem.Size = new System.Drawing.Size(100, 23);
-            this.btnHuyTimKiem.TabIndex = 9;
-            this.btnHuyTimKiem.Text = "Hủy điều kiện";
-            this.btnHuyTimKiem.UseVisualStyleBackColor = true;
+            this.txtTrangThai.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtTrangThai.Location = new System.Drawing.Point(440, 46);
+            this.txtTrangThai.Name = "txtTrangThai";
+            this.txtTrangThai.Size = new System.Drawing.Size(100, 20);
+            this.txtTrangThai.TabIndex = 7;
+            // 
+            // txtTenChuyenDe
+            // 
+            this.txtTenChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtTenChuyenDe.Location = new System.Drawing.Point(440, 16);
+            this.txtTenChuyenDe.Name = "txtTenChuyenDe";
+            this.txtTenChuyenDe.Size = new System.Drawing.Size(100, 20);
+            this.txtTenChuyenDe.TabIndex = 6;
+            // 
+            // txtLop
+            // 
+            this.txtLop.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtLop.Location = new System.Drawing.Point(196, 49);
+            this.txtLop.Name = "txtLop";
+            this.txtLop.Size = new System.Drawing.Size(100, 20);
+            this.txtLop.TabIndex = 5;
+            // 
+            // txtMaChuyenDe
+            // 
+            this.txtMaChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.txtMaChuyenDe.Location = new System.Drawing.Point(196, 16);
+            this.txtMaChuyenDe.Name = "txtMaChuyenDe";
+            this.txtMaChuyenDe.Size = new System.Drawing.Size(100, 20);
+            this.txtMaChuyenDe.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(350, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Trạng thái:";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(110, 49);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Lớp:";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(350, 16);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tên chuyên đề:";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(110, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Mã chuyên đề:";
             // 
             // dgvChiTietChuyenDe
             // 
-            this.dgvChiTietChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dgvChiTietChuyenDe.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.dgvChiTietChuyenDe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChiTietChuyenDe.Location = new System.Drawing.Point(0, 145);
             this.dgvChiTietChuyenDe.Name = "dgvChiTietChuyenDe";

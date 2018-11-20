@@ -28,7 +28,7 @@ namespace QLCD.Views.TrangChu.Control
 
 
 
-        private void btnXemTTChuyenDe_Click(object sender, EventArgs e)
+        private void btnXemTTDKChuyenDe_Click(object sender, EventArgs e)
         {
 
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
@@ -38,20 +38,24 @@ namespace QLCD.Views.TrangChu.Control
            
         }
 
-        private void btnXemDSMonHoc_Click(object sender, EventArgs e)
+      
+
+        private void btnXemTTChuyenDe_Click(object sender, EventArgs e)
+        {
+            
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
+            EditMonHoc edmh = new EditMonHoc();
+            edmh.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edmh);
+        }
+
+        private void btnXemDSChuyenDe_Click(object sender, EventArgs e)
         {
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
             DanhSachMonHoc dsmh = new DanhSachMonHoc();
             dsmh.Dock = DockStyle.Fill;
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(new DanhSachMonHoc());
-        }
 
-        private void btnCapNhatMonHoc_Click(object sender, EventArgs e)
-        {
-            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
-            EditMonHoc edmh = new EditMonHoc();
-            edmh.Dock = DockStyle.Fill;
-            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edmh);
         }
     }
 }

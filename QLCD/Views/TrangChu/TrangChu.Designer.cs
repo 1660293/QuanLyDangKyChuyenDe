@@ -65,15 +65,19 @@
             this.pnlChinh.BackColor = System.Drawing.SystemColors.Control;
             this.pnlChinh.Location = new System.Drawing.Point(0, 107);
             this.pnlChinh.Name = "pnlChinh";
-            this.pnlChinh.Size = new System.Drawing.Size(906, 404);
+            this.pnlChinh.Size = new System.Drawing.Size(835, 357);
             this.pnlChinh.TabIndex = 2;
             this.pnlChinh.TabStop = true;
             // 
             // spChucNang
             // 
             this.spChucNang.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.spChucNang.Location = new System.Drawing.Point(0, 4);
+            this.spChucNang.Location = new System.Drawing.Point(-35, 4);
             this.spChucNang.Name = "spChucNang";
+            // 
+            // spChucNang.Panel1
+            // 
+            this.spChucNang.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.spChucNang_Panel1_Paint);
             // 
             // spChucNang.Panel2
             // 
@@ -86,7 +90,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 510);
+            this.ClientSize = new System.Drawing.Size(836, 463);
             this.Controls.Add(this.spChucNang);
             this.Controls.Add(this.pnlChinh);
             this.Name = "TrangChu";

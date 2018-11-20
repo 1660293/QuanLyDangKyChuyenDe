@@ -51,9 +51,9 @@
             this.label1.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(200, 23);
+            this.label1.Size = new System.Drawing.Size(219, 23);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Danh Sách Môn Học";
+            this.label1.Text = "Danh Sách Chuyên Đề";
             // 
             // label2
             // 

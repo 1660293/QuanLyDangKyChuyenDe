@@ -32,5 +32,10 @@ namespace QLCD.Views.TrangChu
         {
 
         }
+
+        private void spChucNang_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
