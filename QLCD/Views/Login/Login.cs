@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QLCD.Views.TrangChu;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,12 +34,15 @@ namespace QLCD
 
         private void btnMatKhau_Click(object sender, EventArgs e)
         {
-
+            TrangChu form = new TrangChu(); 
+            form.Visible = true;
+            form.Show();
+            this.Dispose(false);
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
+
+
+       
 
         }
-    }
 }
