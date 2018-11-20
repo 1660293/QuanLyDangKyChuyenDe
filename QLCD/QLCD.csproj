@@ -142,6 +142,12 @@
     <Compile Include="Views\TrangChu\Control\MenuGiaoVu.Designer.cs">
       <DependentUpon>MenuGiaoVu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\TrangChu\Control\MenuGiaoVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChu\Control\MenuGiaoVien.Designer.cs">
+      <DependentUpon>MenuGiaoVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\TrangChu\Control\ThongTinDangKyChuyenDe.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -185,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\MenuGiaoVu.resx">
       <DependentUpon>MenuGiaoVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TrangChu\Control\MenuGiaoVien.resx">
+      <DependentUpon>MenuGiaoVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TrangChu\Control\ThongTinDangKyChuyenDe.resx">
       <DependentUpon>ThongTinDangKyChuyenDe.cs</DependentUpon>

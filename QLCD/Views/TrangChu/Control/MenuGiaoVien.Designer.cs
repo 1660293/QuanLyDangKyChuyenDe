@@ -1,6 +1,6 @@
 ﻿namespace QLCD.Views.TrangChu.Control
 {
-    partial class MenuChung
+    partial class MenuGiaoVien
     {
         /// <summary> 
         /// Required designer variable.
@@ -34,20 +34,21 @@
             // btnGiaoVu
             // 
             this.btnGiaoVu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnGiaoVu.Location = new System.Drawing.Point(12, 15);
+            this.btnGiaoVu.Location = new System.Drawing.Point(0, 18);
             this.btnGiaoVu.Name = "btnGiaoVu";
             this.btnGiaoVu.Size = new System.Drawing.Size(126, 48);
-            this.btnGiaoVu.TabIndex = 1;
-            this.btnGiaoVu.Text = "Xem Thông Tin Kết Quả Sinh Viên";
+            this.btnGiaoVu.TabIndex = 0;
+            this.btnGiaoVu.Text = "Giáo Vụ";
             this.btnGiaoVu.UseVisualStyleBackColor = true;
+            this.btnGiaoVu.Click += new System.EventHandler(this.btnGiaoVu_Click);
             // 
-            // MenuChung
+            // MenuGiaoVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btnGiaoVu);
-            this.Name = "MenuChung";
-            this.Size = new System.Drawing.Size(150, 79);
+            this.Name = "MenuGiaoVu";
+            this.Size = new System.Drawing.Size(142, 84);
             this.ResumeLayout(false);
 
         }

@@ -17,11 +17,20 @@ namespace QLCD.Views.TrangChu
         public TrangChu()
         {
             InitializeComponent();
-            MenuChung menuChung = new MenuChung(this);
-            menuChung.Dock = DockStyle.Fill;
             MenuGiaoVu menuGiaoVu = new MenuGiaoVu(this);
             menuGiaoVu.Dock = DockStyle.Fill;
-            spcChucNang.Panel1.Controls.Add(menuChung);
-            spcChucNang.Panel2.Controls.Add(menuGiaoVu);        }
+            MenuGiaoVien menuGiaoVien = new MenuGiaoVien(this);
+            menuGiaoVien.Dock = DockStyle.Fill;
+            spcGiaoVuGiaoVien.Panel1.Controls.Add(menuGiaoVu);
+            spcGiaoVuGiaoVien.Panel2.Controls.Add(menuGiaoVien);
+            MenuChung menuChung = new Control.MenuChung(this);
+            menuChung.Dock = DockStyle.Fill;
+            spChucNang.Panel1.Controls.Add(menuChung);
+        }
+
+        private void spcChucNang_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

@@ -10,21 +10,48 @@ using System.Windows.Forms;
 
 namespace QLCD.Views.TrangChu.Control
 {
-    public partial class MenuGiaoVu : UserControl
+    public partial class MenuGiaoVu : UserControl, IDisposable
     {
         private Form formParent;
-        
+        public MenuGiaoVu()
+        {
+
+            int x = 5;
+
+            InitializeComponent();
+        }
         public MenuGiaoVu(Form form)
         {
             InitializeComponent();
             formParent = form;
         }
-        private void btnGiaoVu_Click(object sender, EventArgs e)
+
+
+
+        private void btnXemTTChuyenDe_Click(object sender, EventArgs e)
+        {
+
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
+            ThongTinDangKyChuyenDe ttcd = new ThongTinDangKyChuyenDe();
+            ttcd.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(ttcd);
+           
+        }
+
+        private void btnXemDSMonHoc_Click(object sender, EventArgs e)
         {
             ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
-            EditChuyenDe edcd = new EditChuyenDe();
-            edcd.Dock = DockStyle.Fill;
-            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edcd);
+            DanhSachMonHoc dsmh = new DanhSachMonHoc();
+            dsmh.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(new DanhSachMonHoc());
+        }
+
+        private void btnCapNhatMonHoc_Click(object sender, EventArgs e)
+        {
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Clear();
+            EditMonHoc edmh = new EditMonHoc();
+            edmh.Dock = DockStyle.Fill;
+            ((QLCD.Views.TrangChu.TrangChu)formParent).pnlChinh.Controls.Add(edmh);
         }
     }
 }

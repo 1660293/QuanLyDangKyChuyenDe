@@ -60,10 +60,12 @@ namespace QLCD.Views.TrangChu.Control
             int a = dgvThongTinChuyenDe.CurrentRow.Index;
             if(dgvThongTinChuyenDe.Columns[dgvThongTinChuyenDe.CurrentCell.ColumnIndex].Name =="btnChiTiet")
             {
-                ChiTietChuyenDe ctcd = new ChiTietChuyenDe();
-                ctcd.Dock = DockStyle.Fill;
-                NhapLieuDialog nld = new NhapLieuDialog(ctcd);
-                nld.ShowDialog();
+                int index = dgvThongTinChuyenDe.CurrentRow.Index;
+
+                //ChiTietChuyenDe ctcd = new ChiTietChuyenDe(dgvThongTinChuyenDe.Rows[index], dgvThongTinChuyenDe.Co, dgvThongTinChuyenDe.Rows[index].Cells[0], dgvThongTinChuyenDe.Rows[index].Cells[0]);
+                //ctcd.Dock = DockStyle.Fill;
+                //NhapLieuDialog nld = new NhapLieuDialog(ctcd);
+                //nld.ShowDialog();
                 
 
             }

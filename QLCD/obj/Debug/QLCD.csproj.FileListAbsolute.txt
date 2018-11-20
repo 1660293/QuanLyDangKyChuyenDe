@@ -15,7 +15,6 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.pd
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\System.Interactive.dll
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\System.Interactive.xml
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.TrangChu.resources
-D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuChung.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuGiaoVu.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.DanhSachMonHoc.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ThongTinDangKyChuyenDe.resources
@@ -23,3 +22,5 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Vi
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.EditMonHoc.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.NhapLieuDialog.resources
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.ChiTietChuyenDe.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuGiaoVien.resources
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\obj\Debug\QLCD.Views.TrangChu.Control.MenuChung.resources

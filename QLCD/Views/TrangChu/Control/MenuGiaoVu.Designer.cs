@@ -28,33 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGiaoVu = new System.Windows.Forms.Button();
+            this.btnCapNhatMonHoc = new System.Windows.Forms.Button();
+            this.btnXemDSMonHoc = new System.Windows.Forms.Button();
+            this.btnXemTTChuyenDe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnGiaoVu
+            // btnCapNhatMonHoc
             // 
-            this.btnGiaoVu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.btnGiaoVu.Location = new System.Drawing.Point(0, 18);
-            this.btnGiaoVu.Name = "btnGiaoVu";
-            this.btnGiaoVu.Size = new System.Drawing.Size(126, 48);
-            this.btnGiaoVu.TabIndex = 0;
-            this.btnGiaoVu.Text = "Giáo Vụ";
-            this.btnGiaoVu.UseVisualStyleBackColor = true;
-            this.btnGiaoVu.Click += new System.EventHandler(this.btnGiaoVu_Click);
+            this.btnCapNhatMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnCapNhatMonHoc.Location = new System.Drawing.Point(380, 17);
+            this.btnCapNhatMonHoc.Name = "btnCapNhatMonHoc";
+            this.btnCapNhatMonHoc.Size = new System.Drawing.Size(134, 65);
+            this.btnCapNhatMonHoc.TabIndex = 5;
+            this.btnCapNhatMonHoc.Text = "Xem Thông Tin Môn Học";
+            this.btnCapNhatMonHoc.UseVisualStyleBackColor = true;
+            this.btnCapNhatMonHoc.Click += new System.EventHandler(this.btnCapNhatMonHoc_Click);
+            // 
+            // btnXemDSMonHoc
+            // 
+            this.btnXemDSMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnXemDSMonHoc.Location = new System.Drawing.Point(187, 15);
+            this.btnXemDSMonHoc.Name = "btnXemDSMonHoc";
+            this.btnXemDSMonHoc.Size = new System.Drawing.Size(139, 65);
+            this.btnXemDSMonHoc.TabIndex = 4;
+            this.btnXemDSMonHoc.Text = "Xem Danh Sách Môn Học ";
+            this.btnXemDSMonHoc.UseVisualStyleBackColor = true;
+            this.btnXemDSMonHoc.Click += new System.EventHandler(this.btnXemDSMonHoc_Click);
+            // 
+            // btnXemTTChuyenDe
+            // 
+            this.btnXemTTChuyenDe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.btnXemTTChuyenDe.Location = new System.Drawing.Point(25, 16);
+            this.btnXemTTChuyenDe.Name = "btnXemTTChuyenDe";
+            this.btnXemTTChuyenDe.Size = new System.Drawing.Size(117, 65);
+            this.btnXemTTChuyenDe.TabIndex = 3;
+            this.btnXemTTChuyenDe.Text = "Xem Thông Tin Đăng ký Chuyên Đề";
+            this.btnXemTTChuyenDe.UseVisualStyleBackColor = true;
+            this.btnXemTTChuyenDe.Click += new System.EventHandler(this.btnXemTTChuyenDe_Click);
             // 
             // MenuGiaoVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btnGiaoVu);
+            this.CausesValidation = false;
+            this.Controls.Add(this.btnCapNhatMonHoc);
+            this.Controls.Add(this.btnXemDSMonHoc);
+            this.Controls.Add(this.btnXemTTChuyenDe);
             this.Name = "MenuGiaoVu";
-            this.Size = new System.Drawing.Size(142, 84);
+            this.Size = new System.Drawing.Size(558, 100);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnGiaoVu;
+        private System.Windows.Forms.Button btnCapNhatMonHoc;
+        private System.Windows.Forms.Button btnXemDSMonHoc;
+        private System.Windows.Forms.Button btnXemTTChuyenDe;
     }
 }

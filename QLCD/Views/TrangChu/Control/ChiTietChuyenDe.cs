@@ -12,9 +12,16 @@ namespace QLCD.Views.TrangChu.Control
 {
     public partial class ChiTietChuyenDe : UserControl
     {
-        public ChiTietChuyenDe()
+
+        public ChiTietChuyenDe(string macd,string tencd,string sisotoida,string trangthai)
         {
             InitializeComponent();
+            lbTenCD.Text = lbTenCD1.Text = tencd;
+            lbMaCD.Text = macd;
+            lbSiSoCD.Text = sisotoida;
+            lbTrangThaiCD.Text = trangthai;
         }
+
+      
     }
 }
