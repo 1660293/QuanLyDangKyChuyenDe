@@ -49,14 +49,14 @@ namespace QLCD.Views.TrangChu.Control
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvDanhSachMonHoc.Columns[dgvDanhSachMonHoc.CurrentCell.ColumnIndex].Name == "btnTrangThai")
+            if (dgvDanhSachMonHoc.Columns[dgvDanhSachMonHoc.CurrentCell.ColumnIndex].Name == "btnChiTiet")
             {
                 int index = dgvDanhSachMonHoc.CurrentRow.Index;
 
-                VoHieuHoaMonHoc vhh = new VoHieuHoaMonHoc();
-                vhh.Dock = DockStyle.Fill; 
-                NhapLieuDialog nld = new NhapLieuDialog(vhh,"Vô Hiệu Hóa Môn Học");
-                nld.Size = vhh.Size;
+                MoChuyenDe mcd = new MoChuyenDe();
+                mcd.Dock = DockStyle.Fill; 
+                NhapLieuDialog nld = new NhapLieuDialog(mcd,"Chi Tiết Chuyên Đề");
+                nld.Size = mcd.Size;
                 nld.ShowDialog();
 
 
