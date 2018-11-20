@@ -40,7 +40,7 @@
             this.btnCapNhatMonHoc.Name = "btnCapNhatMonHoc";
             this.btnCapNhatMonHoc.Size = new System.Drawing.Size(134, 65);
             this.btnCapNhatMonHoc.TabIndex = 5;
-            this.btnCapNhatMonHoc.Text = "Làm Gì Đó";
+            this.btnCapNhatMonHoc.Text = "Chỉnh Sửa Môn Học";
             this.btnCapNhatMonHoc.UseVisualStyleBackColor = true;
             this.btnCapNhatMonHoc.Click += new System.EventHandler(this.btnCapNhatMonHoc_Click);
             // 

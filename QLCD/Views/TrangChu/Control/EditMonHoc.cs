@@ -16,5 +16,7 @@ namespace QLCD.Views.TrangChu.Control
         {
             InitializeComponent();
         }
+
+       
     }
 }

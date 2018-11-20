@@ -40,9 +40,9 @@
             this.cbVoHieuHoa = new System.Windows.Forms.CheckBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvDanhSachMonHoc = new System.Windows.Forms.DataGridView();
             this.pnlNhapDSMH.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachMonHoc)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -134,9 +134,9 @@
             this.cbChuaVoHieuHoa.AutoSize = true;
             this.cbChuaVoHieuHoa.Location = new System.Drawing.Point(409, 69);
             this.cbChuaVoHieuHoa.Name = "cbChuaVoHieuHoa";
-            this.cbChuaVoHieuHoa.Size = new System.Drawing.Size(80, 17);
+            this.cbChuaVoHieuHoa.Size = new System.Drawing.Size(99, 17);
             this.cbChuaVoHieuHoa.TabIndex = 6;
-            this.cbChuaVoHieuHoa.Text = "checkBox2";
+            this.cbChuaVoHieuHoa.Text = "Đã vô hiệu hóa";
             this.cbChuaVoHieuHoa.UseVisualStyleBackColor = true;
             this.cbChuaVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbChuaVoHieuHoa_CheckedChanged);
             // 
@@ -146,9 +146,9 @@
             this.cbVoHieuHoa.AutoSize = true;
             this.cbVoHieuHoa.Location = new System.Drawing.Point(186, 69);
             this.cbVoHieuHoa.Name = "cbVoHieuHoa";
-            this.cbVoHieuHoa.Size = new System.Drawing.Size(80, 17);
+            this.cbVoHieuHoa.Size = new System.Drawing.Size(95, 17);
             this.cbVoHieuHoa.TabIndex = 5;
-            this.cbVoHieuHoa.Text = "checkBox1";
+            this.cbVoHieuHoa.Text = "Chưa hiệu hóa";
             this.cbVoHieuHoa.UseVisualStyleBackColor = true;
             this.cbVoHieuHoa.CheckedChanged += new System.EventHandler(this.cbVoHieuHoa_CheckedChanged);
             // 
@@ -170,16 +170,16 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Mã môn học:";
             // 
-            // dataGridView1
+            // dgvDanhSachMonHoc
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 145);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(720, 234);
-            this.dataGridView1.TabIndex = 4;
+            this.dgvDanhSachMonHoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.dgvDanhSachMonHoc.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvDanhSachMonHoc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDanhSachMonHoc.Location = new System.Drawing.Point(0, 145);
+            this.dgvDanhSachMonHoc.Name = "dgvDanhSachMonHoc";
+            this.dgvDanhSachMonHoc.Size = new System.Drawing.Size(720, 234);
+            this.dgvDanhSachMonHoc.TabIndex = 4;
+            this.dgvDanhSachMonHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // DanhSachMonHoc
             // 
@@ -187,14 +187,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvDanhSachMonHoc);
             this.Controls.Add(this.pnlNhapDSMH);
             this.Controls.Add(this.label1);
             this.Name = "DanhSachMonHoc";
             this.Size = new System.Drawing.Size(720, 382);
+            this.Load += new System.EventHandler(this.DanhSachMonHoc_Load);
             this.pnlNhapDSMH.ResumeLayout(false);
             this.pnlNhapDSMH.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachMonHoc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,6 +215,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnResetSeachMH;
         private System.Windows.Forms.Button btnSearchMonHoc;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvDanhSachMonHoc;
     }
 }

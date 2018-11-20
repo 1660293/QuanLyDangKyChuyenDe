@@ -55,7 +55,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlChinh.AutoSize = true;
-            this.pnlChinh.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlChinh.BackColor = System.Drawing.SystemColors.Control;
             this.pnlChinh.Location = new System.Drawing.Point(0, 107);
             this.pnlChinh.Name = "pnlChinh";
             this.pnlChinh.Size = new System.Drawing.Size(713, 341);
