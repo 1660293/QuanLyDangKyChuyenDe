@@ -27,7 +27,14 @@ namespace QLCD.Views.TrangChu
             MenuChung menuChung = new Control.MenuChung(this);
             menuChung.Dock = DockStyle.Fill;
             spChucNang.Panel1.Controls.Add(menuChung);
-            if(spcGiaoVuGiaoVien.Panel1Collapsed==true) spChucNang.SplitterDistance = 360;
+            if (spcGiaoVuGiaoVien.Panel1Collapsed == true)
+            {
+                spChucNang.SplitterDistance = 360;
+                lbPhanHe.Text = "Giáo Viên";
+            }else
+            {
+                lbPhanHe.Text = " Giáo Vụ";
+            }
         }
 
         private void spcChucNang_Panel2_Paint(object sender, PaintEventArgs e)

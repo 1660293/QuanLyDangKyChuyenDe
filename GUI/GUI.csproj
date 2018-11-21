@@ -261,6 +261,8 @@
     <Folder Include="Custom\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\DefaultPhanHe.jpg" />
+    <None Include="Resources\account-login.png" />
     <None Include="Data\Image\search.ico" />
     <None Include="Data\Image\bg_label_login.jpg" />
     <None Include="Data\Image\account-login.png" />

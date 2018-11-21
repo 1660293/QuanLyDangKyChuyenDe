@@ -38,7 +38,7 @@
             this.btnGiaoVien.Name = "btnGiaoVien";
             this.btnGiaoVien.Size = new System.Drawing.Size(126, 48);
             this.btnGiaoVien.TabIndex = 0;
-            this.btnGiaoVien.Text = "Giáo Viên";
+            this.btnGiaoVien.Text = "Cập Nhật Và Giao Chuyên Đề";
             this.btnGiaoVien.UseVisualStyleBackColor = true;
             this.btnGiaoVien.Click += new System.EventHandler(this.btnGiaoVu_Click);
             // 

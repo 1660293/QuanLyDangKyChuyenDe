@@ -45,3 +45,10 @@ D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\System.
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\EntityFramework.xml
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\EntityFramework.SqlServer.xml
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\QLCD\bin\Debug\System.Interactive.xml
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\QLCD.exe
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\QLCD.pdb
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\System.Interactive.dll
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\EntityFramework.xml
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\bin\Debug\System.Interactive.xml
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\GUI\obj\Debug\QLCD.Properties.Resources.resources
