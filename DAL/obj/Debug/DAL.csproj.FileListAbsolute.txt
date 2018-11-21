@@ -1,1 +1,6 @@
 D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\bin\Debug\DAL.exe.config
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\bin\Debug\DAL.exe
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\bin\Debug\DAL.pdb
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\obj\Debug\DAL.exe
+D:\Learn\Nam_3\PTUDCSDL\DoAnThucHanh\QuanLyDangKyChuyenDe\DAL\obj\Debug\DAL.pdb
